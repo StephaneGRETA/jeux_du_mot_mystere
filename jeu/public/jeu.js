@@ -10,8 +10,7 @@ var fin = document.getElementById("fin")
 var solution = "Demandez un nouveau jeu"
 var etape = 0
 var bravo = 0
-//var mots = "garage"
-var mots=["garage", "hacker", "bifide", "bonsai", "cheval"]
+var mots = "garage"
 
 /* déclaration des fonctions */
 
@@ -57,17 +56,10 @@ function perdre(nodes, solution){
 }
 
 /* logique de jeu */
-var niveau = getNiveau()
 
 //Liste de mots pour le niveau facile
-document.getElementById("lettre6").hidden = true
 
 //Liste de mots pour le niveau difficile
-if (niveau == 7)
-{
-    mots = ["absolue","butanol","cabotin","gabarie","piccolo"]
-    document.getElementById("lettre6").hidden = false
-}
 
 //initialiser le jeu
 //alert(jeu.innerHTML)
@@ -78,10 +70,7 @@ message.innerHTML = solution
 
 //Click sur le bouton 'nouveau jeu'
 jeu.addEventListener("click", function(){
-    //solution = mots
-    var max = mots.length
-    var indice = Math.floor(Math.random() * max)
-    solution = mots[indice]
+    solution = mots
 
     desactiver(inputs, false)
     affichage.src = "./public/jeu00.png"
