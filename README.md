@@ -5,6 +5,11 @@ Maintenant que vous avez découvert le HTML, vous allez pouvoir créer la page _
         <div id="entete">
         </div>
 
+        <div id="regles">
+            <p>Retrouvez toutes les lettres du mot mystère en moins de 7 coups.</p>
+            <p>Pour démarrer la partie cliquez sur "Nouveau jeu".</p>
+        </div>
+        
         <div id="air_de_jeu">
         </div>
 
