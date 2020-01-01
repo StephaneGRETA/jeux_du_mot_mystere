@@ -51,7 +51,7 @@ Attention, à bien attribuer la victoire au bout de 6 lettres trouvées, pour un
 
 En suivant toutes ces recommandations, modifier le code de _pendu.js_ pour gérer les niveaux de jeu.
 
-Vous trouverez le projet complet dans la dernière étape de ce projet.
+[Vous trouverez le projet complet dans la dernière étape de ce projet](https://github.com/JaminNormand/le-garage-le-jeu/tree/end).
 
     
 
