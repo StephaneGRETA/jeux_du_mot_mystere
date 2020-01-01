@@ -1,5 +1,5 @@
 # Première page HTML
-Maintenant que vous avez découvert le HTML, vous allez pouvoir créer la page _pendu.html_. Vous allez voir qu'elle est structuré un peu comme la page _index.html_ :
+Maintenant que vous avez découvert le HTML, vous allez pouvoir créer la page _jeu.html_. Vous allez voir qu'elle est structurée un peu comme la page _index.html_ :
 
     <body><div id="page">
         <div id="entete">
@@ -33,19 +33,19 @@ La balise compte 4 attributs :
 
 Pour finir cette partie, ajoutez suffisament d'__INPUT__ pour en avoir 7. Les __id__ font de _lettre0_ à _lettre6_. 
 
-Pour voir d'autres types d'__INPUT__ : [MDN]
+Pour voir d'autres types d'__INPUT__ : [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input)
 
 Enfin, il nous faut un bouton pour lancer le jeu. Pour ça, ajoutez, en-dessous les __INPUT__, le __BUTTON__ suivant :
 
     <button id="jeu">Nouveau Jeu</button>
 
 ## Visu
-Cette __DIV__ affiche l'image du pendu. Pour ajouter une image, utilisez la balise __IMG__, comme décrit dans la documentation [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img).
+Cette __DIV__ affiche l'image du décompte des erreurs. Pour ajouter une image, utilisez la balise __IMG__, comme décrit dans la documentation [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img).
 
-Le chemin de l'image, s'écrit, dans notre projet, _./publics/pendu00.png_.
+Le chemin de l'image, s'écrit, dans notre projet, _./publics/jeu00.png_.
 
 ## Reponse
 Ajoutez dans un cette __DIV__ un bouton _Voir la solution_ avec un __id__ _fin_.
 Enfin, ajoutez une balise de paragraphe, sans texte, avec un __id__ _message_.
 
-La page _pendu.html_ est terminée, mais elle n'est pas très belle. La prochaine [étape](https://github.com/JaminNormand/pendu-le-garage/tree/step-3) du projet consiste à embellir les pages web grâce au _css_.
+La page _jeu.html_ est terminée, mais elle n'est pas très belle. La prochaine [étape](https://github.com/JaminNormand/pendu-le-garage/tree/step-3) du projet consiste à embellir les pages web grâce au _css_.
