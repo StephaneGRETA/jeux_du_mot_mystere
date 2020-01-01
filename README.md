@@ -10,9 +10,9 @@ Le JavaScript repose sur 3 principes :
 * _Les mots clés_ : des mots qui structure le code et qui ont une fonction précise. le mot __var__, sert par exemple à déclarer une variable et le mot __function__, une fonction.
 
 ## Utiliser JavaScript
-Ajoutez la ligne suivante à la fin du __BODY__ de la page _pendu.html_ :
+Ajoutez la ligne suivante à la fin du __BODY__ de la page _jeu.html_ :
 
-    <script src="./public/pendu.js"></script>
+    <script src="./public/jeu.js"></script>
 
 Comme pour le CSS, il faut dire à la page web où se trouve le code JS que l'on veut utiliser.
 
@@ -49,7 +49,7 @@ Voici un petit exemple à ajouter dans le code :
 * __alert()__ : est une fonction native qui prend en parramètre un message à afficher.
 * __getNiveau()__ : est une fonction déclarées un peu plus haut dans le fichier et qui retourne le niveau choisi par l'internaute.
 
-Vous pouvez donc retrouver le code de __getNiveau()__ dans le fichier _pendu.js_ :
+Vous pouvez donc retrouver le code de __getNiveau()__ dans le fichier _jeu.js_ :
 
     //fonction pour récupérer le niveau de difficulté
     function getNiveau(){
@@ -82,7 +82,7 @@ Voyons si vous avez compris. Ajoutez les lignes de code pour trouver les balises
 * le bouton ayant pour __id__ _jeu_,
 * le bouton ayant pour __id__ _fin_,
 * le paragraphe ayant pour __id__ _message_,
-* L'image ayant pour __id__ _pendu_.
+* L'image ayant pour __id__ _affichage_.
 
 Testez rapidement votre code, avec a ligne suivante :
 
@@ -92,7 +92,7 @@ Testez rapidement votre code, avec a ligne suivante :
 __innerHTML__ est une propriété qui retourne le contenu de la balise se trouvant avant le point.
 
 ## Un peu de code
-Donc, pour le moment, le JavaScript c'est des fonctions et des variables. Vous allez pouvoir commencer à coder le jeu en faissant appel à la fonction __desactiver()__, déclarée dans le fichier _pendu.js :
+Donc, pour le moment, le JavaScript c'est des fonctions et des variables. Vous allez pouvoir commencer à coder le jeu en faissant appel à la fonction __desactiver()__, déclarée dans le fichier _jeu.js_ :
 
     //fonction pour activer ou desactiver les champs de saisie
     function desactiver(nodes, ok){
@@ -146,7 +146,7 @@ Lorsqu'il fait ça, il déclenche un évènement. Celui-ci peut, à son tour, d�
         solution = mots
 
         desactiver(inputs, false)
-        pendu.src = "./public/pendu00.png"
+        pendu.src = "./public/jeu00.png"
         message.innerHTML = ""
         message.setAttribute("style", "color: #302535")
         bravo = 0
@@ -209,7 +209,7 @@ Ces derniers éléments doivent nous permettre de coder la logique du jeu, qui d
                 }
             }else{
                 etape++
-                pendu.src = './public/pendu0'+etape+'.png'
+                affichage.src = './public/jeu0'+etape+'.png'
 
                 if(etape > 6){
                     perdre(inputs, solution)
@@ -222,7 +222,7 @@ Ces derniers éléments doivent nous permettre de coder la logique du jeu, qui d
 En vous inspirant de la fonction __gagner(nodes, solution)__ codez la fonction __perdre(nodes, solution)__, qui doit :
 * désactiver les champs de saisie,
 * afficher la solution dans le paragraphe _message_,
-* afficher l'image _public/pendu07.png_,
+* afficher l'image _public/jeu07.png_,
 * afficher le texte de _message_ dans la couleur #f9674d.
 
 Puis ajoutez l'évènement _click_ sur le bouton d'__id__ _fin_. Le code de cet évènement appel la fonction __perdre()__.
