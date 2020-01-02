@@ -56,7 +56,7 @@ Les titres sont repérés par des balises H qui vont de __H1__ à __H6__.
 
 Ajoutez la balise suivante dans la __DIV__ _entete_ :
 
-    <h1>Le Pendu par le Garage</h1>
+    <h1>Le Garage, Le Jeu</h1>
 
 Ajoutez la balise __H3__ dans la __DIV__ _pied_de_page_ :
 
