@@ -46,7 +46,7 @@ Dans cette exemple, la police _Open Sans_ est chargée à partir du site [Google
 
 Il est possible de faire beaucoup d'autres choses avec la police, comme changer la taille de la font ou la couleur :
 
-    font-size: 1,5em;
+    font-size: 1.5em;
     color:#302535;
 
 * la taille de la police est exprimée en __em__, une taille relative à l'écran qui rend le texte responsive.
