@@ -146,7 +146,7 @@ Lorsqu'il fait ça, il déclenche un évènement. Celui-ci peut, à son tour, d�
         solution = mots
 
         desactiver(inputs, false)
-        pendu.src = "./public/jeu00.png"
+        affichage.src = "./public/jeu00.png"
         message.innerHTML = ""
         message.setAttribute("style", "color: #302535")
         bravo = 0
