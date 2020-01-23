@@ -29,6 +29,8 @@ Voici, par exemple, deux variables dont on a besoin dans le code :
     /* déclaration des variables */
     var solution = "Demandez un nouveau jeu"
     var etape = 0
+    var bravo = 0
+    var mots = "garage"
 
 A noter que la ligne qui commence par __/*__ et se termine par __*/__ n'est pas du code, mais un simple texte appellé commentaire.
 
@@ -71,7 +73,7 @@ Il faut donc que dans le code JS, les balises qui déclenchent les évènements 
 
     /* sélection des éléments de la page pour travailler avec */
     var airDeJeu = document.getElementById("air_de_jeu")
-    var inputs = airDeJeu.getElementsByClassName("aTrouver")
+    var inputs = document.getElementsByClassName("aTrouver")
 
 * La première permet de retrouver une balise de la page HTML à partir de son __id__,
 * la seconde permet de retrouver toutes les balises ayant la même __class__.
