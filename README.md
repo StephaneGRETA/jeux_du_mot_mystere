@@ -97,4 +97,4 @@ Modifions notre _index.html_ pour ajouter un lien vers la page _pendu.html_. Rep
 
 Si vous avez bien compris le principe, modifiez la deuxième ligne pour atteindre la page _jeu.html_ en passant le paramètre __niveau=7__.
 
-Maintenant que la première page est terminée vous pouvez passer à l'[étape 2](https://github.com/JaminNormand/le-garage-le-jeu/tree/step-2)
+Maintenant que la première page est terminée vous pouvez passer à l'[étape 2](https://github.com/StephaneGRETA/jeux_du_mot_mystere/tree/step-2)
