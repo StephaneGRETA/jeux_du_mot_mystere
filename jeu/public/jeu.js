@@ -10,7 +10,7 @@ var fin = document.getElementById("fin")
 var solution = "Demandez un nouveau jeu"
 var etape = 0
 var bravo = 0
-var mots = "garage"
+var mots = "svelte"
 
 /* déclaration des fonctions */
 
