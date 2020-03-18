@@ -30,13 +30,13 @@ Voici, par exemple, deux variables dont on a besoin dans le code :
     var solution = "Demandez un nouveau jeu"
     var etape = 0
     var bravo = 0
-    var mots = "garage"
+    var mots = "svelte"
 
 A noter que la ligne qui commence par __/*__ et se termine par __*/__ n'est pas du code, mais un simple texte appellé commentaire.
 
 Pour voir si vous avec bien compris le principe :
 * ajoutez une variable _bravo_ avec une valeur de _0_,
-* et une variable _mots_ avec pour valeur _"garage"_.
+* et une variable _mots_ avec pour valeur _"svelte"_.
 
 ## Les fonctions
 Il existe deux types de fonctions :
@@ -229,4 +229,4 @@ En vous inspirant de la fonction __gagner(nodes, solution)__ codez la fonction _
 
 Puis ajoutez l'évènement _click_ sur le bouton d'__id__ _fin_. Le code de cet évènement appel la fonction __perdre()__.
 
-Enfin, vous allez pouvoir coder les différents niveaux de jeu dans l'[étape 6](https://github.com/JaminNormand/le-garage-le-jeu/tree/step-6).
+Enfin, vous allez pouvoir coder les différents niveaux de jeu dans l'[étape 6](https://github.com/StephaneGRETA/jeux_du_mot_mystere/tree/step-6).
