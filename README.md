@@ -7,10 +7,10 @@ Pour le moment, c'est toujours le même mot qui est proposé au joueur. Pour ren
 
 Commencez par modifier la variable __mots__ comme proposé ici :
 
-    var mots=["garage", "hacker", "bifide", "bonsai", "cheval"]
+    var mots=["svelte", "hacker", "bifide", "bonsai", "cheval"]
     
  Nous avons vu qu'une variable sert à stocker une valeur. Grâce aux crochets, la variable peut stocker une liste de valeur. Pour retrouver l'une des valeurs il faut passer par un indice, comme par exemple :
- * __mots[0]__ : retourne "garage",
+ * __mots[0]__ : retourne "svelte",
  * __mots[3]__ : retourne "bonsai",
  * __mots[i]__ : il est possible d'utiliser une variable pour représenter l'indice.
  
@@ -51,7 +51,7 @@ Attention, à bien attribuer la victoire au bout de 6 lettres trouvées, pour un
 
 En suivant toutes ces recommandations, modifier le code de _jeu.js_ pour gérer les niveaux de jeu.
 
-[Vous trouverez le projet complet dans la dernière étape de ce projet](https://github.com/JaminNormand/le-garage-le-jeu/tree/end).
+[Vous trouverez le projet complet dans la dernière étape de ce projet](https://github.com/StephaneGRETA/jeux_du_mot_mystere/tree/end).
 
     
 
