@@ -53,4 +53,4 @@ Le chemin de l'image, s'écrit, dans notre projet, _./publics/jeu00.png_.
 Ajoutez dans un cette __DIV__ un bouton _Voir la solution_ avec un __id__ _fin_.
 Enfin, ajoutez une balise de paragraphe, sans texte, avec un __id__ _message_.
 
-La page _jeu.html_ est terminée, mais elle n'est pas très belle. La prochaine [étape](https://github.com/JaminNormand/le-garage-le-jeu/tree/step-3) du projet consiste à embellir les pages web grâce au _css_.
+La page _jeu.html_ est terminée, mais elle n'est pas très belle. La prochaine [étape](https://github.com/StephaneGRETA/jeux_du_mot_mystere/tree/step-3) du projet consiste à embellir les pages web grâce au _css_.
