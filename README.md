@@ -56,7 +56,7 @@ Les titres sont repérés par des balises H qui vont de __H1__ à __H6__.
 
 Ajoutez la balise suivante dans la __DIV__ _entete_ :
 
-    <h1>Le Garage, Le Jeu</h1>
+    <h1>Le Jeu du mot mystère</h1>
 
 Ajoutez la balise __H3__ dans la __DIV__ _pied_de_page_ :
 
@@ -69,7 +69,7 @@ Il existe différents formats de textes. le plus utilisé est le paragraphe :
     
 Ce paragraphe prend place dans la __DIV__ _menu_. Ajoutez le paragraphe suivant en-dessous le titre __H3__ :
 
-    <p>Le Garage</p>
+    <p>Stéphane Jamin Normand</p>
     
 Il est aussi possible de créer des listes à puces :
 
