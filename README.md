@@ -28,7 +28,7 @@ Il existe un très grand nombre de règles qui peuvent être retrouvées sur [MD
 ## Appliquer une feuille de style à une page web
 Pour appliquer une feuille de style à une page web, il suffit d'ajouter cette ligne de code dans l'entête HTML :
 
-    <link rel="stylesheet" href="./public/pendu.css">
+    <link rel="stylesheet" href="./public/jeu.css">
   
 Faites le pour les deux fichiers html du projet et observez ce que cela donne.
 
