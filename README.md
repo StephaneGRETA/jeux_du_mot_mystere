@@ -48,4 +48,4 @@ Il faut rajouter le sélecteur, et les règles qui vont avec, pour avoir des bou
 * du gras,
 * le texte en majuscule.
 
-Le site est terminé, du moins pour la présentation. Il faut maintenant coder la logique du jeu à l'[étape 5](https://github.com/JaminNormand/le-garage-le-jeu/tree/step-5).
+Le site est terminé, du moins pour la présentation. Il faut maintenant coder la logique du jeu à l'[étape 5](https://github.com/StephaneGRETA/jeux_du_mot_mystere/tree/step-5).
