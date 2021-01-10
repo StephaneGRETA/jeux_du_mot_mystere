@@ -1,7 +1,7 @@
 # Découverte du JavaScript
-Le JavaScript est utilisé pour rendre dynamique une page web. A l'heure actuelle, dans notre jeu, lorsqu'un bouton est cliqué ou un champ rempli, il ne se passe rien. Le code qui va être ajouté va permettre de mettre à jour la page suivant ces évènements. C'est ce qu'on appelle du code évènementiel.
+Le JavaScript est utilisé pour rendre dynamique une page web. A l'heure actuelle, dans notre jeu, lorsqu'un bouton est cliqué ou un champ rempli, il ne se passe rien. Le code qui va être ajouté permet de mettre à jour la page suivant ces évènements. C'est ce qu'on appelle du code évènementiel.
 
-Vous trouverez, comme d'habitude, une docymentation détaillée sur [MDN](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide).
+Vous trouverez, comme d'habitude, une documentation détaillée sur [MDN](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide).
 
 ## structure du JavaSript
 Le JavaScript repose sur 3 principes :
@@ -17,20 +17,18 @@ Ajoutez la ligne suivante à la fin du __BODY__ de la page _jeu.html_ :
 Comme pour le CSS, il faut dire à la page web où se trouve le code JS que l'on veut utiliser.
 
 ## Les variables
-Elles sont donc déclarée par le mot __var__ suivi d'un nom, laissé à l'appréciation du développeur. Il est possible de leurs attribuer une valeur grâce au symbole _=_. 
+Elles sont donc déclarées par le mot __var__ suivi d'un nom, laissé à l'appréciation du développeur. Il est possible de leurs attribuer une valeur grâce au symbole _=_. 
 
 Ces valeurs peuvent être :
 * _du numérique_ : en mettant tout simple un nombre après le __=__,
 * _du texte_ : en mettant le texte entre guillemets,
 * _un booléen_ : c'est une variable qui ne peut être que vraie ou fausse. on utilise alors les mots clés __true__ ou __false__.
 
-Voici, par exemple, deux variables dont on a besoin dans le code :
+Voici, par exemple, les variables dont on a besoin dans le code :
 
     /* déclaration des variables */
     var solution = "Demandez un nouveau jeu"
     var etape = 0
-    var bravo = 0
-    var mots = "svelte"
 
 A noter que la ligne qui commence par __/*__ et se termine par __*/__ n'est pas du code, mais un simple texte appellé commentaire.
 
@@ -48,8 +46,8 @@ Voici un petit exemple à ajouter dans le code :
     /* logique de jeu */
     alert(getNiveau())
 
-* __alert()__ : est une fonction native qui prend en parramètre un message à afficher.
-* __getNiveau()__ : est une fonction déclarées un peu plus haut dans le fichier et qui retourne le niveau choisi par l'internaute.
+* __alert()__ : est une fonction native qui prend en paramètre un message à afficher.
+* __getNiveau()__ : est une fonction déclarée un peu plus haut dans le fichier et qui retourne le niveau choisi par l'internaute.
 
 Vous pouvez donc retrouver le code de __getNiveau()__ dans le fichier _jeu.js_ :
 
@@ -62,12 +60,12 @@ Vous pouvez donc retrouver le code de __getNiveau()__ dans le fichier _jeu.js_ :
     
 Une fonction est déclarée par le mot clé __function__ suivit d'un nom, au choix du développeur, de parenthèse et d'un bloc de code, délimité par des accolades. Ce dernier contient le code à déclencher lors de l'appel de la fonction.
 
-Les parenthèses servent donc à passer des parramètres à la fonction, c'est-à-dire des valeurs à traiter par le code de la fonction. S'il n'y en a pas besoin, il faut laisser des parenthèses vides.
+Les parenthèses servent donc à passer des paramètres à la fonction, c'est-à-dire des valeurs à traiter par le code de la fonction. S'il n'y en a pas besoin, il faut laisser des parenthèses vides.
 
-Comme dans l'exemple, il faut appeler la fonction pour que le code de cette dernière soit exécuté.
+Comme dans l'exemple, il faut appeler la fonction pour que le code de cette dernière soit exécutée.
 
 ## Les balises HTML
-Le JavaScript sert donc à dynamiser une page web, c'est à dire à mettre à jour celle-ci suivant les évènements qui surviennent.
+Le JavaScript sert donc à dynamiser une page web, c'est-à-dire à mettre à jour celle-ci suivant les évènements qui surviennent.
 
 Il faut donc que dans le code JS, les balises qui déclenchent les évènements et les balises à mettre à jour puissent être identifiées. Pour ça, il y a plusieurs façons de faire, dont voici les deux plus courantes :
 
@@ -86,7 +84,7 @@ Voyons si vous avez compris. Ajoutez les lignes de code pour trouver les balises
 * le paragraphe ayant pour __id__ _message_,
 * L'image ayant pour __id__ _affichage_.
 
-Testez rapidement votre code, avec a ligne suivante :
+Testez rapidement votre code, avec la ligne suivante :
 
     /* logique de jeu */
     alert(jeu.innerHTML)
@@ -94,7 +92,7 @@ Testez rapidement votre code, avec a ligne suivante :
 __innerHTML__ est une propriété qui retourne le contenu de la balise se trouvant avant le point.
 
 ## Un peu de code
-Donc, pour le moment, le JavaScript c'est des fonctions et des variables. Vous allez pouvoir commencer à coder le jeu en faissant appel à la fonction __desactiver()__, déclarée dans le fichier _jeu.js_ :
+Donc, pour le moment, le JavaScript c'est des fonctions et des variables. Vous allez pouvoir commencer à coder le jeu en faisant appel à la fonction __desactiver()__, déclarée dans le fichier _jeu.js_ :
 
     //fonction pour activer ou desactiver les champs de saisie
     function desactiver(nodes, ok){
@@ -188,7 +186,7 @@ Le __for__ va répéter le code __//todo__ autant de fois qu'il lui faut pour co
 Le __if__ ne va exécuter le __//todo si vrai__ que si la condition est vraie. Si elle est fausse, c'est le code __//todo si faux__ qui est exécuté.
 * __saisie == lettre__ : condition à tester, ici la variable __saisie__ doit être égale à la variable __lettre__
 * __//todo si vrai__ : commentaire qui représente le code à exécuter si la condition est _vraie_,
-* __else__ : mot clé pour indique où débute la partie du code _sinon_,
+* __else__ : mot clé pour indiqué où débute la partie du code _sinon_,
 * __//todo si faux__ : commentaire qui représente le code à exécuter si la condition est _fausse_.
 
 
@@ -229,4 +227,4 @@ En vous inspirant de la fonction __gagner(nodes, solution)__ codez la fonction _
 
 Puis ajoutez l'évènement _click_ sur le bouton d'__id__ _fin_. Le code de cet évènement appel la fonction __perdre()__.
 
-Enfin, vous allez pouvoir coder les différents niveaux de jeu dans l'[étape 6](https://github.com/StephaneGRETA/jeux_du_mot_mystere/tree/step-6).
+Enfin, vous allez pouvoir coder les différents niveaux de jeu dans l'[étape 6](https://github.com/JaminNormand/jeux_du_mot_mystere/tree/step-6).
