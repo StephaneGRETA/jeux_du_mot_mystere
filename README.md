@@ -34,7 +34,7 @@ Dans un premier temps, il faut donc utiliser la fonction pour connaitre le nivea
 
     var niveau = getNiveau()
 
-Ensuite, il faut donc afficher, dans _pendu.html_ autant de champs de saisie qu'il y a de lettres à trouver.Pour cacher, vous pouvez utiliser le code suivant :
+Ensuite, il faut donc afficher, dans _jeu.html_ autant de champs de saisie qu'il y a de lettres à trouver.Pour cacher, vous pouvez utiliser le code suivant :
 
     document.getElementById("lettre6").hidden = true
 
