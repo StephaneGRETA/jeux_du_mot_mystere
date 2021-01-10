@@ -13,10 +13,10 @@ Le CSS permet d'appliquer un style à une balise html. Vous trouverez dans le r�
       font-size: 2.5em;
     }
 
-Le CSS s'écrit toujours de la même façon : un sélécteur suivit des règles de style. Les sélecteurs sont de 3 types, comme dans notre exemple :
+Le CSS s'écrit toujours de la même façon : un sélecteur suivit des règles de style. Les sélecteurs sont de 3 types, comme dans notre exemple :
 * __body__ : en appelant directement la balise sur laquelle il faut appliquer le style.
 * __#entete__ : en appelant l'__id__ de la balise sur laquelle il faut appliquer le style.
-* __.aTrouver__ : en appelant la __class__ des balises sur les qulles il faut appliquer le style.
+* __.aTrouver__ : en appelant la __class__ des balises sur les quelles il faut appliquer le style.
 
 Les règles de styles sont entre accolades et se terminent toutes par un point-virgule. Elle permettent de modifier :
 * La forme de la balise (coins arrondis, largeur, hauteur..)
@@ -34,11 +34,11 @@ Faites le pour les deux fichiers html du projet et observez ce que cela donne.
 
 ## Police
 Pour changer la police d'une page web, il faut :
-* tout d'abord charger la police voulu, en ajoutant, dans l'entête, une balise de ce type :
+* tout d'abord charger la police voulu, en ajoutant, dans l'entête des pages HTML, une balise de ce type :
 
       <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
-* faire appelle à la police dans le style, en ajoutant, la règle suivante, pour le __BODY__ par exemple :
+* faire appelle à la police dans le CSS, en ajoutant, la règle suivante, pour le __BODY__ par exemple :
 
         font-family: "Open Sans",Arial,sans-serif;
 
@@ -53,7 +53,7 @@ Il est possible de faire beaucoup d'autres choses avec la police, comme changer 
 * La couleur est définie par une valeur hexadécimale, valeur donnée par la plupart des outils de traitement d'images.
 
 ## Background
-Le __background-color__ permet donc de définir une couleur de fond pour la balise. En l'appliquant sur le __BODY__ on obtient une couleur de fond pour tout le site. Il peut être appliqué à n'importe quelle balise. Ajoutez le background suivant au sélecteur __#entete__ :
+Le __background-color__ permet donc de définir une couleur de fond pour la balise. En l'appliquant sur le __BODY__ on obtient une couleur de fond pour tout le site. Elle peut être appliquée à n'importe quelle balise. Ajoutez le background suivant au sélecteur __#entete__ :
 
     background-color: white;
  
@@ -84,6 +84,7 @@ CSS propose de nombreuses façons de placer les éléments sur une page.
 
 ### Marges
 Tous d'abord, sachez que chaque balise dispose d'un padding et d'une margin :
+
 ![marges](ressources/marges.png)
 
 Il est possible de les définir aves les règles __padding__ et __margin__. 
@@ -96,7 +97,7 @@ Puis cette règle pour les __DIV__ :
 
     margin: 2em;
     
-Remarquez que les marges sont définis en em pour rester responsive et correspondre à la taille de police utilisée.
+Remarquez que les marges sont définies en em pour rester responsive et correspondre à la taille de police utilisée.
 
 Pour notre projet, nous avons besoin d'ajouter les règles suivantes :
 
