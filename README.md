@@ -1,5 +1,5 @@
 # Découverte du HTML
-le HTML contient la structure et le contenu de la page web. C'est un langage à balise et normalisé, c'est à dire que vous aller devoir utiliser des noms de balises prédéfinis pour construire votre page. Vous ne pouvez pas inventer vos propres balises. Pour commencer, il faut respecter l'architecture suivante :
+le HTML contient la structure et le contenu de la page web. C'est un langage à balise et normalisé, c'est-à-dire que vous aller devoir utiliser des noms de balises prédéfinis pour construire votre page. Vous ne pouvez pas inventer vos propres balises. Pour commencer, il faut respecter l'architecture suivante :
 
     <!DOCTYPE html>
     <html lang="fr">
@@ -43,7 +43,7 @@ Ouvrez le fichier _index.html_. vous constatez qu'il y a de nouvelles balises :
     
 Ces balises n'ont aucun effet sur l'apparence de la page, comme vous pouvez le constater en ouvrant la page dans un navigateur. Elle est vide. On traite toujours les pages web en bloc, ce qui va beaucoup nous aider pour le css et le responsive.
 
-Notez que chaque __DIV__ contient un __id__. C'est un paramètre qui prend une valeur grâce à l'opérateur __=__. Le but de l'__id__ est pouvoir identifier une __DIV__. Vous êtes libre de donner le nom que vous voulez. 
+Notez que chaque __DIV__ contient un __id__. C'est un paramètre qui prend une valeur grâce à l'opérateur __=__. Le but de l'__id__ est pouvoir identifier une __DIV__. Vous êtes libre de lui donner le nom que vous voulez. 
 
 Le document étant structuré, nous pouvons passer au contenu.
 
@@ -67,7 +67,7 @@ Il existe différents formats de textes. le plus utilisé est le paragraphe :
 
     <p>Choisir le niveau </p>
     
-Ce paragraphe prend place dans la __DIV__ _menu_. Ajoutez le paragraphe suivant en-dessous le titre __H3__ :
+Ce paragraphe prend place dans la __DIV__ _menu_. Ajoutez le paragraphe suivant en-dessous du titre __H3__ :
 
     <p>Stéphane Jamin Normand</p>
     
@@ -85,11 +85,11 @@ Cette liste prend place dans la __DIV__ _menu_.
 ### Lien hypertexte
 Le lien hypertexte est l'un des principes fondamentaux du web. Simple à mettre en place, cette balise ouvre une nouvelle page web lorsque l'utilisateur clique dessus. Cela est possible grâce à une URL, une adresse utilisée sur le web.
 
-Modifions notre _index.html_ pour ajouter un lien vers la page _pendu.html_. Reprenez la la première ligne de la liste à puces, et ajoutez la balise __A__ comme suit :
+Modifions notre _index.html_ pour ajouter un lien vers la page _jeu.html_. Reprenez la la première ligne de la liste à puces, et ajoutez la balise __A__ comme suit :
 
     <li><a href="jeu.html?niveau=6">niveau 1</a></li>
     
-* __A__ : balise pour de lien hypertexte. 
+* __A__ : balise de lien hypertexte. 
 * __href__ : paramètre pour définir l'URL de la page à atteindre.
 * __"jeu.html"__ : URL de la page à atteindre.
 *__?niveau=6"__ : passe un paramètre à la page à atteindre.
