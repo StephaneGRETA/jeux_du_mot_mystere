@@ -20,7 +20,7 @@ Maintenant que vous avez découvert le HTML, vous allez pouvoir créer la page _
         </div>
     </div></body>
 
-## Entete
+## Entête
 Ajoutez dans la __DIV__ _entete_ le même titre __H1__ que dans _index.html_.
 En-dessous, ajoutez un paragraphe qui contient un lien qui ramène vers la page _index.html_.
 
@@ -36,7 +36,7 @@ La balise compte 4 attributs :
 * __class__ : comme __id__, vous pouvez ajouter des __class__ sur des balises. Elles servent, après, pour le _CSS_ ou le _JS_.
 * __size__ : taille du champs en nombre de caractères.
 
-Pour finir cette partie, ajoutez suffisament d'__INPUT__ pour en avoir 7. Les __id__ font de _lettre0_ à _lettre6_. 
+Pour finir cette partie, ajoutez suffisament d'__INPUT__ pour en avoir 7. Les __id__ vont de _lettre0_ à _lettre6_. 
 
 Pour voir d'autres types d'__INPUT__ : [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input)
 
