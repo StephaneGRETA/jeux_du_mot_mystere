@@ -2,7 +2,7 @@
 Les pages commencent à avoir du style, mais on peut faire mieux. Voici les dernières règles à ajouter pour terminer la mise en forme du site.
 
 ## Pour la page d'index
-Voici le travail à faire par sélecteur. N'hésitez à les ajouter s'il n'existe pas encore dans votre CSS.
+Voici le travail à faire par sélecteur. N'hésitez pas à les ajouter s'il n'existe pas encore dans votre CSS.
 
 ### H1
 Pour un titre un peu plus lisible, il faut espacer les lettres, le passer en gras et en majuscule. Voici les régles à ajouter au sélecteur :
@@ -23,7 +23,7 @@ Les liens seraient bien mieux sans les puces. Pour les enlever, ajoutez la ligne
 
     list-style-type: none;
     
-Il ne reste plus qu'à ajouter un __margin__ de _1em_ pour aérer un peu cette partie de la page. Ca vous savez désormais le faire.
+Il ne reste plus qu'à ajouter une __margin__ de _1em_ pour aérer un peu cette partie de la page. Ca vous savez désormais le faire.
 
 ### A
 La police par défaut ne met pas assez en avant les liens. Il faudrait les avoir en gras et dans une police plus grande. _2em_ par exemple. A vous de jouer.
@@ -35,7 +35,7 @@ Pour épurer un peu, nous allons enlever la ligne de soulignement grâce à la r
 ## Pour la page du jeu du pendu
 
 ## classe aTrouver
-Pour les __INPUTS__, repérés grâce à la classe _aTrouver_, il nous faudrez des champs un peux moins resserrer  (grâce au __margin__) et un texte centré.
+Pour les __INPUTS__, repérées grâce à la classe _aTrouver_, il nous faudrez des champs un peux moins resserrer  (grâce au __margin__) et un texte centré.
 
 ## button
 Il faut rajouter le sélecteur, et les règles qui vont avec, pour avoir des boutons qui ont pour style :
