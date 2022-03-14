@@ -23,6 +23,7 @@ Lors du développement d'un projet web, vous devez garder 2 choses en tête :
 
 ### Le SEO
 ![seo](ressources/seo.png)
+[auteur](https://www.consultante-seo.paris/seo-infographie/)
 
 ## Structurer une page
 Ouvrez le fichier _index.html_. vous constatez qu'il y a de nouvelles balises :
