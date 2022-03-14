@@ -22,7 +22,7 @@ Lors du développement d'un projet web, vous devez garder 2 choses en tête :
 ![responsive](ressources/responsive.png)
 
 ### Le SEO
-![seo](https://www.seoh.fr/wp-content/uploads/2018/02/Infographie-466x656.jpg)
+![seo](ressources/seo.png)
 
 ## Structurer une page
 Ouvrez le fichier _index.html_. vous constatez qu'il y a de nouvelles balises :
