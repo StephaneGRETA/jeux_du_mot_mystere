@@ -32,7 +32,7 @@ Pour épurer un peu, nous allons enlever la ligne de soulignement grâce à la r
 
     text-decoration: none;
 
-## Pour la page du jeu du pendu
+## Pour la page du jeu
 
 ## classe aTrouver
 Pour les __INPUTS__, repérées grâce à la classe _aTrouver_, il nous faudrez des champs un peux moins resserrer  (grâce au __margin__) et un texte centré.
