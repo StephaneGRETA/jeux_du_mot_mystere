@@ -47,7 +47,7 @@ Enfin, il nous faut un bouton pour lancer le jeu. Pour ça, ajoutez, en-dessous 
 ## Visu
 Cette __DIV__ affiche l'image du décompte des erreurs. Pour ajouter une image, utilisez la balise __IMG__, comme décrit dans la documentation [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img).
 
-Le chemin de l'image, s'écrit, dans notre projet, _./publics/jeu00.png_.
+Le chemin de l'image, s'écrit, dans notre projet, _./public/jeu00.png_.
 
 ## Reponse
 Ajoutez dans un cette __DIV__ un bouton _Voir la solution_ avec un __id__ _fin_.
